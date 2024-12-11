@@ -22,7 +22,7 @@ body {
   font-family: 'Gill Sans MT', 'Gill Sans',  Calibri, 'Trebuchet MS', sans-serif;
   background: transparent;
   background: linear-gradient(#0002, transparent);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(7px);
   color: #fff;
   border: 1px solid #fff7;
   border-radius: 10px;
@@ -135,6 +135,7 @@ input::placeholder {
   .contenedor {
     width: 84%;
     box-sizing: border-box;
+    backdrop-filter: blur(7px);
   }
 
   .contenedor h1 {
@@ -146,6 +147,7 @@ input::placeholder {
   .contenedor {
     width: 84%;
     box-sizing: border-box;
+    backdrop-filter: blur(7px);
   }
 
   .contenedor h1 {
@@ -165,6 +167,7 @@ input::placeholder {
   .contenedor {
     width: 84%;
     box-sizing: border-box;
+    backdrop-filter: blur(7px);
   }
   
   .contenedor h1 {
