@@ -11,7 +11,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image: url(river.jpeg);
+  background-image: url(/img/river.jpeg);
   background-position: center;
   background-size: cover;
 }
@@ -70,6 +70,12 @@ input::placeholder {
   font-size: 14.5px;
   display: flex;
   justify-content: space-between;
+
+}
+
+.recordarme label {
+  display: flex;
+  align-items: center;
 }
 
 .recordarme label input {
@@ -124,8 +130,6 @@ input::placeholder {
   transition: transform 0.2s ease;
   transform: scale(1.02);
 }
-
-
 
 @media (Max-width:500px) {
   .contenedor {
