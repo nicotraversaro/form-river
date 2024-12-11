@@ -132,6 +132,18 @@ input::placeholder {
 }
 
 @media (Max-width:500px) {
+  body {
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/img/river.jpeg);
+    background-position: center;
+    background-size: cover;
+  }
+
   .contenedor {
     width: 84%;
     box-sizing: border-box;
@@ -143,6 +155,18 @@ input::placeholder {
 }
 
 @media (Max-width:420px) {
+  body {
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/img/river.jpeg);
+    background-position: center;
+    background-size: cover;
+  }
+  
   .contenedor {
     width: 84%;
     box-sizing: border-box;
@@ -162,6 +186,18 @@ input::placeholder {
 }
 
 @media (Max-width:395px) {
+  body {
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/img/river.jpeg);
+    background-position: center;
+    background-size: cover;
+  }
+  
   .contenedor {
     width: 84%;
     box-sizing: border-box;
