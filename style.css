@@ -143,6 +143,11 @@ input::placeholder {
 }
 
 @media (Max-width:420px) {
+  .contenedor {
+    width: 84%;
+    box-sizing: border-box;
+  }
+
   .contenedor h1 {
     font-size: 29px;
   }
@@ -157,6 +162,11 @@ input::placeholder {
 }
 
 @media (Max-width:395px) {
+  .contenedor {
+    width: 84%;
+    box-sizing: border-box;
+  }
+  
   .contenedor h1 {
     font-size: 27px;
   }
