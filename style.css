@@ -124,3 +124,44 @@ input::placeholder {
   transition: transform 0.2s ease;
   transform: scale(1.02);
 }
+
+
+
+@media (Max-width:500px) {
+  .contenedor {
+    width: 84%;
+    box-sizing: border-box;
+  }
+
+  .contenedor h1 {
+    font-size: 31px;
+  }
+}
+
+@media (Max-width:420px) {
+  .contenedor h1 {
+    font-size: 29px;
+  }
+
+  .contenedor .recordarme {
+    font-size: 13.5px;
+  }
+
+  .contenedor .final {
+    font-size: 13.5px;
+  }
+}
+
+@media (Max-width:395px) {
+  .contenedor h1 {
+    font-size: 27px;
+  }
+
+  .contenedor .recordarme {
+    font-size: 12.5px;
+  }
+
+  .contenedor .final {
+    font-size: 12.5px;
+  }
+}
