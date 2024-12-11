@@ -136,6 +136,7 @@ input::placeholder {
     width: 84%;
     box-sizing: border-box;
     backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
   }
 
   .contenedor h1 {
@@ -148,6 +149,7 @@ input::placeholder {
     width: 84%;
     box-sizing: border-box;
     backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
   }
 
   .contenedor h1 {
@@ -168,6 +170,7 @@ input::placeholder {
     width: 84%;
     box-sizing: border-box;
     backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
   }
   
   .contenedor h1 {
